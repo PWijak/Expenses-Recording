@@ -18,7 +18,7 @@ from datetime import datetime #import current time stamp
 
 
 GUI = Tk()
-GUI.title('Expenses Recording')
+GUI.title('Expenses Recording v.1.0')
 GUI.geometry('650x750+500+30')
 
 
@@ -36,6 +36,7 @@ filemenu.add_command(label='Export to Googlesheet')
 # Help menu
 
 def About():
+	print('About Menu')
 	messagebox.showinfo('About','Created by P.Wijak')
 
 helpmenu = Menu(menubar,tearoff=0)
